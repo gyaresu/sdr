@@ -7,7 +7,7 @@ sudo apt-get update
 #sudo apt-get upgrade --force-yes
 
 # Install the GNURadio Iridium Decoder
-git clone git@github.com:muccc/gr-iridium.git
+git clone https://github.com/muccc/gr-iridium.git
 cd gr-iridium 
 mkdir build
 cd build
@@ -16,4 +16,5 @@ make
 sudo make install
 sudo ldconfig
 
+# Setup hackrf_sweep
 
