@@ -4,4 +4,5 @@ wget https://raw.githubusercontent.com/keenerd/rtl-sdr-misc/master/heatmap/heatm
 git clone https://github.com/antirez/dump1090.git
 cd dump1090
 make
-./dump1090 --interactive --net
+./dump1090  --net
+
