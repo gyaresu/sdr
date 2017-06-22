@@ -9,3 +9,6 @@ This is a set of example scenarios you can use with GNURadio and either a HackRF
 
   * [ADSB](https://en.wikipedia.org/wiki/Automatic_dependent_surveillance_%E2%80%93_broadcast)
     * adsb.sh using [dump1090](https://github.com/antirez/dump1090)
+
+  * [NRSC-5](https://en.wikipedia.org/wiki/HD_Radio) HD Digital Radio
+    * nrsc5.sh
