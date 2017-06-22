@@ -8,4 +8,4 @@ This is a set of example scenarios you can use with GNURadio and either a HackRF
      * iridium_hackrf_bias-t.sh
 
   * [ADSB](https://en.wikipedia.org/wiki/Automatic_dependent_surveillance_%E2%80%93_broadcast)
-    * [dump1090](https://github.com/antirez/dump1090)
+    * adsb.sh using [dump1090](https://github.com/antirez/dump1090)

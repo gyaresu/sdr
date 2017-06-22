@@ -1,5 +1,4 @@
-sudo apt-get update
-sudo apt-get install socat -y
+# ADSB presentation in Firefox
 git clone https://github.com/antirez/dump1090.git
 cd dump1090
 make
