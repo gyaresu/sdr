@@ -7,5 +7,14 @@ if [ ! -d "dump1090" ]; then
 fi
 
 cd ~/dump1090
-./dump1090  --net >/dev/null 2>&1 &
-firefox localhost:8080 >/dev/null 2>&1 &
+
+case "$(pidof dump1090 | wc -c)" in
+
+0)  echo "Starting dump1090"
+    ./dump1090  --net >/dev/null 2>&1 &
+    firefox localhost:8080 >/dev/null 2>&1 &
+    ;;
+1)  echo "Killing dump1090"
+    pkill -9 dump1090
+    pkill -9 firefox
+    ;;
