@@ -1,5 +1,5 @@
 # ADSB presentation in Firefox
-if [ ! -d "dump1090"]; then
+if [ ! -d "dump1090" ]; then
     git clone https://github.com/antirez/dump1090.git
     cd dump1090
 make
