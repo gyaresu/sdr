@@ -18,3 +18,4 @@ case "$(pidof dump1090 | wc -c)" in
     pkill -9 dump1090
     pkill -9 firefox
     ;;
+esac
