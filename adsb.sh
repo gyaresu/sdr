@@ -2,7 +2,8 @@
 cd ~
 if [ ! -d "dump1090" ]; then
     git clone https://github.com/antirez/dump1090.git
-make
+    cd dump1090
+    make
 fi
 
 cd ~/dump1090
