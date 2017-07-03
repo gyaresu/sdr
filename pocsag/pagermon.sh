@@ -13,3 +13,4 @@ export NODE_ENV=production
 pm2 start process.json
 cd ~/pagermon/client
 npm install
+
