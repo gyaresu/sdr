@@ -1,5 +1,11 @@
 # GNURadio Live examples
 
+## Equipment
+ * [HackRF](greatscottgadgets.com/hackrf)
+ * [RTL-SDR](https://en.wikipedia.org/wiki/List_of_software-defined_radios)
+
+## Scenarios
+
 This is a set of example scenarios you can use with GNURadio and either a HackRF One or an RTL-SDR.
 
   * [Iridium](https://en.wikipedia.org/wiki/Iridium_satellite_constellation#Satellites)
@@ -14,5 +20,5 @@ This is a set of example scenarios you can use with GNURadio and either a HackRF
   * [NRSC-5](https://en.wikipedia.org/wiki/HD_Radio) HD Digital Radio
     * nrsc5.sh
 
-  * []()
-    * 
+  * [FM Wideband Audio](https://en.wikipedia.org/wiki/Wideband)
+    * fm_channelizer.sh
