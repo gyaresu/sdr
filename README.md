@@ -1,6 +1,8 @@
 # GNURadio Live examples
 
-## Equipment
+![HackRF One](/images/hackrf_one.jpeg)
+
+## Equipment List
  * [HackRF](greatscottgadgets.com/hackrf)
  * [RTL-SDR](https://en.wikipedia.org/wiki/List_of_software-defined_radios)
 
@@ -9,7 +11,7 @@
 This is a set of example scenarios you can use with GNURadio and either a HackRF One or an RTL-SDR.
 
   * [Iridium](https://en.wikipedia.org/wiki/Iridium_satellite_constellation#Satellites)
-     * iridium_install.sh 
+     * iridium_install.sh
      * iridium_hackrf.sh
      * iridium_hackrf_bias-t.sh
 
