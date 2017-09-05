@@ -10,17 +10,23 @@
 
 This is a set of example scenarios you can use with GNURadio and either a HackRF One or an RTL-SDR.
 
-  * [Iridium](https://en.wikipedia.org/wiki/Iridium_satellite_constellation#Satellites)
+  * [ADSB](/adsb/README.md)
+    * adsb.sh using [dump1090](https://github.com/antirez/dump1090)
+    * adsb_quit.sh (to stop the dump1090 programme)
+
+  * [AIS](/ais/README.md)
+    * ais.sh
+    
+  * [FM Broadcasting](/fm/README.md)
+    * fm_channelizer.sh
+
+  * [Iridium]()
      * iridium_install.sh
      * iridium_hackrf.sh
      * iridium_hackrf_bias-t.sh
 
-  * [ADSB](https://en.wikipedia.org/wiki/Automatic_dependent_surveillance_%E2%80%93_broadcast)
-    * adsb.sh using [dump1090](https://github.com/antirez/dump1090)
-    * adsb_quit.sh (to stop the dump1090 programme)
-
-  * [NRSC-5](https://en.wikipedia.org/wiki/HD_Radio) HD Digital Radio
+  * [NRSC5](/nrsc5/README.md)
     * nrsc5.sh
 
-  * [FM Wideband Audio](https://en.wikipedia.org/wiki/Wideband)
-    * fm_channelizer.sh
+  * [POCSAG](/pocsag/README.md)
+    * pagermon.sh
