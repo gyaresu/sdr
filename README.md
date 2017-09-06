@@ -3,8 +3,8 @@
 ![HackRF One](/images/hackrf_one.jpeg)
 
 ## Equipment List
- * [HackRF](greatscottgadgets.com/hackrf)
- * [RTL-SDR](https://en.wikipedia.org/wiki/List_of_software-defined_radios)
+ * [HackRF](greatscottgadgets.com/hackrf) by (Great Scott Gadgets)
+ * [RTL-SDR](https://en.wikipedia.org/wiki/List_of_software-defined_radios) (Wikipedia)
 
 ## Scenarios
 
@@ -30,3 +30,9 @@ This is a set of example scenarios you can use with GNURadio and either a HackRF
 
   * [POCSAG](/pocsag/README.md)
     * pagermon.sh
+
+## Getting Starting
+
+### SDR - where to start?
+
+  * Michael Ossmann's [Software Defined Radio with HackRF](https://greatscottgadgets.com/sdr/) video course is a great place to start.
