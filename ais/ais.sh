@@ -5,8 +5,8 @@ then
   sudo apt-get install rtl-sdr libusb-1.0-0-dev;
 fi
 
-if [ ! -d "$HOME/ais"]; then
-  mkdir ~/ais
+if [ ! -d "$HOME/ais" ]; then
+  mkdir $HOME/ais
 fi
 
 cd ~/ais
