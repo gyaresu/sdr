@@ -8,7 +8,7 @@ fi
 
 cd ~/dump1090
 
-case "$(pidof dump1090 | wc -c)" in
+case "$(pidof dump1090 | wc -w)" in
 
 0)  echo "Starting dump1090"
     ./dump1090  --net >/dev/null 2>&1 &
