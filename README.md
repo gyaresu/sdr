@@ -10,7 +10,7 @@
 
 This is a set of example scenarios you can use with GNURadio and either a HackRF One or an RTL-SDR.
 
-  * [ADSB](/blob/master/adsb/README.md)
+  * [ADSB](/adsb)
     * adsb.sh using [dump1090](https://github.com/antirez/dump1090)
     * adsb_quit.sh (to stop the dump1090 programme)
 
