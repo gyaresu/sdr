@@ -14,21 +14,21 @@ This is a set of example scenarios you can use with GNURadio and either a HackRF
     * adsb.sh using [dump1090](https://github.com/antirez/dump1090)
     * adsb_quit.sh (to stop the dump1090 programme)
 
-  * [AIS](/ais/README.md)
+  * [AIS](/ais/)
     * ais.sh
     
-  * [FM Broadcasting](/fm/README.md)
+  * [FM Broadcasting](/fm/)
     * fm_channelizer.sh
 
-  * [Iridium]()
+  * [Iridium](/iridium/)
      * iridium_install.sh
      * iridium_hackrf.sh
      * iridium_hackrf_bias-t.sh
 
-  * [NRSC5](/nrsc5/README.md)
+  * [NRSC5](/nrsc5/)
     * nrsc5.sh
 
-  * [POCSAG](/pocsag/README.md)
+  * [POCSAG](/pocsag/)
     * pagermon.sh
 
 ## Getting Starting
