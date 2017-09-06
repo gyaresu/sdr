@@ -9,7 +9,7 @@ if [ ! -d "$HOME/ais" ]; then
   mkdir $HOME/ais
 fi
 
-cd ~/ais
+cd $HOME/ais
 git clone https://github.com/dgiardini/rtl-ais
 cd ./rtl-ais
 make
@@ -19,7 +19,7 @@ sudo apt-get update
 sudo apt-get install opencpn -y # Getting 88 MB of files(!)
                                 # TODO: create local repository for apt packages
 
-$HOME/rtl-ais/rtl_ais -p 0 -R on -n -h 127.0.0.1
+$HOME/ais/rtl-ais/rtl_ais -p 0 -R on -n -h 127.0.0.1
 
 
 
