@@ -5,7 +5,7 @@
 if [ ! -d $HOME/nrsc5 ]; then
   cd $HOME
   git clone https://github.com/theori-io/nrsc5.git
-  sudo apt-get install libao-dev
+  sudo apt-get install libao-dev -y
   cd nrsc5
   mkdir build
   cd build
