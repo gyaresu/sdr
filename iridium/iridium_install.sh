@@ -20,8 +20,11 @@ fi
 if [ ! -d $HOME/iridium-toolkit ]; then
   cd $HOME
   git clone https://github.com/muccc/iridium-toolkit.git
-  cd $HOME/iridium-toolkit
-  export PATH=$PATH:$HOME/iridium-toolkit
+  git clone http://git.osmocom.org/osmo-ir77
+  echo PATH="$PATH:$HOME/iridium-toolkit:$HOME/osmo-ir77" >> $HOME/.profile
+  export PATH="$PATH:$HOME/iridium-toolkit:$HOME/osmo-ir77"
+  cd $HOME/osmo-ir77/codec
+  make
 fi
 
 # Setup hackrf_sweep
