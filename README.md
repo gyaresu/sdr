@@ -39,6 +39,8 @@ It is meant to be used with the [GNU Radio Live SDR Environment](https://wiki.gn
 
 The livesdr image is based on Ubuntu Linux 16.04.2 LTS, 64-bit edition, and has additional software installed beyond the defaults supplied by Ubuntu.
 
+note: _If you create a new USB stick with GNURadioLive on it, be sure that the USB stick is at least 8GB._
+
 ### Pre-Installed SDR Hardware Drivers
 
 Drivers for these GNU Radio-compatible SDR peripherals have been pre-installed:

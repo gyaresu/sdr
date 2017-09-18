@@ -14,13 +14,14 @@ then
 fi
 
 if [ ! -d "$HOME/rtl-ais" ]; then
+  cd $HOME
   git clone https://github.com/dgiardini/rtl-ais
   cd $HOME/rtl-ais
   make
 fi
 
 
-$HOME/ais/rtl-ais/rtl_ais -p 0 -R on -n -h 127.0.0.1
+# $HOME/rtl_ais -p 0 -R on -n -h 127.0.0.1
 
 
 
