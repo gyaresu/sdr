@@ -5,32 +5,41 @@
 ## Equipment List
  * [HackRF](greatscottgadgets.com/hackrf) by (Great Scott Gadgets)
  * [RTL-SDR](https://en.wikipedia.org/wiki/List_of_software-defined_radios) (Wikipedia)
+ * [Portapack](https://store.sharebrained.com/products/portapack-for-hackrf-one-kit)
 
 ## Scenarios
 
-This is a set of example scenarios you can use with GNURadio and either a HackRF One or an RTL-SDR.
+This is a set of example scenarios you can use either as a stand-alone programme or with GNURadio and either a HackRF One or an RTL-SDR.
+
+All scripts included in this repository are intended to be run from the provided GNURadio LiveUSB.
+
+For better performance, more space, and permanency you should install Ubuntu 16.04 LTS directly onto a computer and run these scripts from there.
+
+After downloading (cloning) the repository, run any of the following commands within their respective folders.
 
   * [ADSB](/adsb/)
-    * adsb.sh using [dump1090](https://github.com/antirez/dump1090)
-    * adsb_quit.sh (to stop the dump1090 programme)
-    * gr-air-modes.sh []
+    * `$ sh adsb.sh` using [dump1090](https://github.com/antirez/dump1090)
+    * `$ sh adsb_quit.sh` (to stop the dump1090 programme)
+    * `$ sh gr-air-modes.sh` for GNURadio ADSB support
+    * `$ sh flightgear-install.sh` to setup AIS/ADSB support for [http://www.flightgear.org](http://www.flightgear.org)
+      * *warning* Flightgear is  500+ MB of downloads and will only work on a dedicated Ubuntu install.
 
   * [AIS](/ais/)
-    * ais.sh
+    * `$ sh ais.sh`
     
   * [FM Broadcasting](/fm/)
-    * fm_channelizer.sh
+    * `$ sh afm_channelizer.sh`
 
   * [Iridium](/iridium/)
-     * iridium_install.sh
-     * iridium_hackrf.sh
-     * iridium_hackrf_bias-t.sh
+     * `$ sh iridium_install.sh`
+     * `$ sh iridium_hackrf.sh`
+     * `$ sh iridium_hackrf_bias-t.sh`
 
   * [NRSC5](/nrsc5/)
-    * nrsc5.sh
+    * `$ sh nrsc5.sh`
 
   * [POCSAG](/pocsag/)
-    * pagermon.sh
+    * `$ sh pagermon.sh`
 
 ## Getting Starting
 
