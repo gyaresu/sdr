@@ -41,6 +41,9 @@ After downloading (cloning) the repository, run any of the following commands wi
   * [POCSAG](/pocsag/)
     * `$ sh pagermon.sh`
 
+  * [Using the GNURadio Live Environment](/gnuradio/)
+    * GNURadio is the main Software Defined Radio tool
+
 ## Getting Starting
 
 The software in this repository is the start of an installation and demonstration package for getting started with Software Defined Radio on ships.
@@ -92,10 +95,16 @@ There are many 3rd-party applications, demos, drivers, and block libraries produ
 - gr-specest, Spectrum estimation blocks
 
 
-### Installing
+### Setup
 
+When attempting to capture a particular frequency it's important to have a [Passband Filter](https://en.wikipedia.org/wiki/Passband).
 
+Filters such as the MiniCircuits VBFZ-1690-S+ L-Band are used with [L band](https://en.wikipedia.org/wiki/L_band).
+
+Low energy signals can be amplified with a [Low Noise Amplifier](https://en.wikipedia.org/wiki/Low-noise_amplifier) such as the TQP3M9037-PCB LNA from Qorvo. Or the [LNA4ALL](http://lna4all.blogspot.ca/) from Adam.
 
 ### SDR - where to start?
 
   * Michael Ossmann's [Software Defined Radio with HackRF](https://greatscottgadgets.com/sdr/) video course is a great place to start.
+  * Adam's [YouTube test videos](https://www.youtube.com/user/9a4qv) for LNA/Filter experiments.
+  * 
