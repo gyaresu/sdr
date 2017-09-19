@@ -14,9 +14,9 @@ if [ ! -d "gr-air-modes" ]; then
 
 fi
 
-# case "$(pidof dump1090 | wc -w)" in
+# case "$(pidof mode_rx | wc -w)" in
 
-# 0)  echo "Starting dump1090"
+# 0)  echo "Starting Flightgear"
 #     ./dump1090  --net >/dev/null 2>&1 &
 #     firefox localhost:8080 >/dev/null 2>&1 &
 #     ;;
