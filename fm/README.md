@@ -1,8 +1,10 @@
 # FM
 
-[FM Broadcasting](https://en.wikipedia.org/wiki/FM_broadcasting)
+_"FM broadcasting is a method of radio broadcasting using frequency modulation (FM) technology. Invented in 1933 by American engineer Edwin Armstrong, it is used worldwide to provide high-fidelity sound over broadcast radio."_ — [FM Broadcasting](https://en.wikipedia.org/wiki/FM_broadcasting)
 
-[FM Wideband](https://en.wikipedia.org/wiki/Wideband)
+_"In communications, a system is wideband when the message bandwidth significantly exceeds the coherence bandwidth of the channel. Some communication links have such a high data rate that they are forced to use a wide bandwidth; other links may have relatively low data rates, but deliberately use a wider bandwidth than "necessary" for that data rate in order to gain other advantages"_ — [FM Wideband](https://en.wikipedia.org/wiki/Wideband)
+
+## GQRX
 
 ![gqrx](/images/gqrx_fm.png)
 
