@@ -1,5 +1,7 @@
 # https://github.com/davidmckenzie/pagermon
 
+# TODO rewrite and configure this to work with Bash
+
 sudo apt-get install npm sqlite3
 sudo npm install npm@latest -g
 sudo npm install pm2 -g
