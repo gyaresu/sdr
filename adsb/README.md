@@ -1,6 +1,15 @@
 # ADSB
 [ADSB](https://en.wikipedia.org/wiki/Automatic_dependent_surveillance_%E2%80%93_broadcast)
 
+# usage
+
+  * [ADSB](/adsb/)
+    * `$ sh adsb.sh` using [dump1090](https://github.com/antirez/dump1090)
+    * `$ sh adsb_quit.sh` (to stop the dump1090 programme)
+    * `$ sh gr-air-modes.sh` for GNURadio ADSB support
+    * `$ sh flightgear-install.sh` to setup AIS/ADSB support for [http://www.flightgear.org](http://www.flightgear.org)
+      * *warning* Flightgear is  500+ MB of downloads and will only work on a dedicated Ubuntu install.
+      
 ## dump1090
 
 [dump1090](https://github.com/antirez/dump1090.git) is an ADSB decoder
