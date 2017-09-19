@@ -10,8 +10,6 @@ if [ ! -d "gr-air-modes" ]; then
     make
     sudo make install
     sudo ldconfig
-    sudo apt-get install flightgear -y
-
 fi
 
 # case "$(pidof mode_rx | wc -w)" in

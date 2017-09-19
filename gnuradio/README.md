@@ -6,7 +6,7 @@ The Live Environment has a small number of shortcuts available through the deskt
 
 The GNU Radio Companion is accessible by clicking the GNU Radio logo on either the left side launchbar or the desktop, or by opening a terminal window and entering grc.
 
-![shortcuts](/images/shorcuts.png)
+![shortcuts](/images/shortcuts.png)
 
 A terminal window may be opened by clicking on the terminal icon on the left or by typing Ctrl-Alt-T.
 
