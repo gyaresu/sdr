@@ -3,7 +3,7 @@
 ![HackRF One](/images/hackrf_one.jpeg)
 
 ## Equipment List
- * [HackRF](greatscottgadgets.com/hackrf) by (Great Scott Gadgets)
+ * [HackRF](https://greatscottgadgets.com/hackrf/) by (Great Scott Gadgets)
  * [RTL-SDR](https://en.wikipedia.org/wiki/List_of_software-defined_radios) (Wikipedia)
  * [Portapack](https://store.sharebrained.com/products/portapack-for-hackrf-one-kit)
 
@@ -119,3 +119,4 @@ Low energy signals can be amplified with a [Low Noise Amplifier](https://en.wiki
 
   * GNURadio [email list](https://lists.gnu.org/mailman/listinfo/discuss-gnuradio)
   * 
+
