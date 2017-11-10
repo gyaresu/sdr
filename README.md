@@ -114,3 +114,8 @@ Low energy signals can be amplified with a [Low Noise Amplifier](https://en.wiki
   * Guided [tutorial](https://wiki.gnuradio.org/index.php/Guided_Tutorial_Introduction) in GNURadio Companion
   * GNURadio [tutorials](https://www.gnuradio.org/category/tutorial/)
   * [Signal identification guide](https://www.sigidwiki.com/wiki/Signal_Identification_Guide)
+
+### Where to get help
+
+  * GNURadio [email list](https://lists.gnu.org/mailman/listinfo/discuss-gnuradio)
+  * 
