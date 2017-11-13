@@ -6,7 +6,7 @@
 # Install the GNURadio Iridium Decoder
 if [ $(dpkg-query -W -f='${Status}' iridium-extractor 2>/dev/null | grep -c "ok installed") -eq 0 ]; then
   cd $HOME/sdr/iridium/gr-iridium 
-  if [ -d build]; then
+  if [ -d build ]; then
     cd build
     sudo make uninstall
     cd ..
@@ -31,13 +31,13 @@ fi
 
 
 # Add Iridium Decoder scripts to $PATH and export to local shell
-if [ $(fgrep -c 'iridium' 2>/dev/null) -eq 0]; then
+if [ $(fgrep -c 'iridium' 2>/dev/null) -eq 0 ]; then
   echo PATH="$PATH:$HOME/sdr/iridium/iridium-toolkit" >> $HOME/.profile
   export PATH="$PATH:$HOME/sdr/iridium/iridium-toolkit"
 fi
 
 # Add the codec binary to $PATH and export to local shell
-if [ $(fgrep -c 'ir77' 2>/dev/null) -eq 0]; then
+if [ $(fgrep -c 'ir77' 2>/dev/null) -eq 0 ]; then
   echo PATH="$PATH:$HOME/sdr/iridiumosmo-ir77/codec" >> $HOME/.profile
   export PATH="$PATH:$HOME/sdr/iridium/osmo-ir77/codec"
 fi
