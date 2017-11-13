@@ -14,8 +14,8 @@ if [ $(dpkg-query -W -f='${Status}' iridium-extractor 2>/dev/null | grep -c "ok 
   fi
   mkdir build
   cd build
-  cmake ..
-  make -Wno-dev
+  cmake .. -Wno-dev
+  make
   sudo make install
   sudo ldconfig
 fi
