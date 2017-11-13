@@ -5,9 +5,7 @@
 
 # Install the GNURadio Iridium Decoder
 if [ $(dpkg-query -W -f='${Status}' iridium-extractor 2>/dev/null | grep -c "ok installed") -eq 0 ]; then
-  cd $HOME
-  git clone https://github.com/muccc/gr-iridium.git
-  cd $HOME/gr-iridium 
+  cd $HOME/sdr/gr-iridium 
   mkdir build
   cd build
   cmake ..
@@ -16,30 +14,27 @@ if [ $(dpkg-query -W -f='${Status}' iridium-extractor 2>/dev/null | grep -c "ok 
   sudo ldconfig
 fi
 
-# Install the Iridium Decoder
-if [ ! -d $HOME/iridium-toolkit ]; then
-  cd $HOME
-  git clone https://github.com/muccc/iridium-toolkit.git
-  export PATH="$PATH:$HOME/iridium-toolkit:$HOME/osmo-ir77/codec"
+# Setup the PATH environment variable for the Iridium Decoder and audio codec
+if [ -d $HOME/sdr/iridium/iridium-toolkit ]; then
+  cd $HOME/sdr/iridium/osmo-ir77
+  export PATH="$PATH:$HOME/sdr/iridium/iridium-toolkit:$HOME/osmo-ir77/codec"
 fi
 
 # Install the Iridium phone call audio codec
-if [ ! -d $HOME/osmo-ir77 ]; then
-  cd $HOME
-  git clone http://git.osmocom.org/osmo-ir77
-  cd $HOME/osmo-ir77/codec
+if [ -d $HOME/sdr/iridium/osmo-ir77 ]; then
+  cd $HOME/sdr/iridium/osmo-ir77
   make
 fi
 
 
 # Add Iridium Decoder scripts to $PATH and export to local shell
 if [ $(fgrep -c 'iridium' 2>/dev/null) -eq 0]; then
-  echo PATH="$PATH:$HOME/iridium-toolkit" >> $HOME/.profile
-  export PATH="$PATH:$HOME/iridium-toolkit"
+  echo PATH="$PATH:$HOME/sdr/iridium/iridium-toolkit" >> $HOME/.profile
+  export PATH="$PATH:$HOME/sdr/iridium/iridium-toolkit"
 fi
 
 # Add the codec binary to $PATH and export to local shell
 if [ $(fgrep -c 'ir77' 2>/dev/null) -eq 0]; then
-  echo PATH="$PATH:$HOME/osmo-ir77/codec" >> $HOME/.profile
-  export PATH="$PATH:$HOME/osmo-ir77/codec"
+  echo PATH="$PATH:$HOME/sdr/iridiumosmo-ir77/codec" >> $HOME/.profile
+  export PATH="$PATH:$HOME/sdr/iridium/osmo-ir77/codec"
 fi

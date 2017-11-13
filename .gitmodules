@@ -1,0 +1,12 @@
+[submodule "iridium/gr-iridium"]
+	path = iridium/gr-iridium
+	url = https://github.com/muccc/gr-iridium
+[submodule "iridium/iridium-toolkit"]
+	path = iridium/iridium-toolkit
+	url = https://github.com/muccc/iridium-toolkit
+[submodule "iridium/liquid-dsp"]
+	path = iridium/liquid-dsp
+	url = https://github.com/jgaeddert/liquid-dsp
+[submodule "iridium/osmo-ir77"]
+	path = iridium/osmo-ir77
+	url = https://git.osmocom.org/osmo-ir77
