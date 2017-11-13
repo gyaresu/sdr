@@ -32,8 +32,6 @@ After downloading (cloning) the repository, run any of the following commands wi
 
   * [Iridium](/iridium/)
      * `$ sh iridium_install.sh`
-     * `$ sh iridium_hackrf.sh`
-     * `$ sh iridium_hackrf_bias-t.sh`
 
   * [NRSC5](/nrsc5/)
     * `$ sh nrsc5.sh`
