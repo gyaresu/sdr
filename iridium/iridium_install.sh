@@ -20,15 +20,12 @@ if [ $(dpkg-query -W -f='${Status}' iridium-extractor 2>/dev/null | grep -c "ok 
   sudo ldconfig
 fi
 
-# Setup the PATH environment variable for the Iridium Decoder and audio codec
-if [ -d $HOME/sdr/iridium/iridium-toolkit ]; then
-  cd $HOME/sdr/iridium/osmo-ir77
-  export PATH="$PATH:$HOME/sdr/iridium/iridium-toolkit:$HOME/osmo-ir77/codec"
-fi
-
 # Install the Iridium phone call audio codec
-if [ -d $HOME/sdr/iridium/osmo-ir77 ]; then
+if [ -d $HOME/sdr/iridium/osmo-ir77/codec ]; then
   cd $HOME/sdr/iridium/osmo-ir77/codec
+  if [ -f ir77_ambe_decode ]; then
+    make clean
+  fi
   make
 fi
 
