@@ -7,6 +7,9 @@
 if [ $(dpkg-query -W -f='${Status}' iridium-extractor 2>/dev/null | grep -c "ok installed") -eq 0 ]; then
   cd $HOME/sdr/iridium/gr-iridium 
   if [ -d build]; then
+    cd build
+    sudo make uninstall
+    cd ..
     rm -rf build
   fi
   mkdir build
