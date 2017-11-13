@@ -38,7 +38,7 @@ fi
 
 
 # Add Iridium Decoder and audio programmes to $PATH and export to local shell
-if [ $(echo $PATH | grep -c codec) -lt 1 ]; then
+if [ $(cat ~/.profile | grep -c codec) -lt 1 ]; then
   echo PATH="$PATH:$HOME/sdr/iridium/iridium-toolkit" >> $HOME/.profile
   export PATH="$PATH:$HOME/sdr/iridium/iridium-toolkit:$HOME/sdr/iridium/osmo-ir77/codec"
 fi
