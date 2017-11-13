@@ -9,7 +9,7 @@ if [ $(dpkg-query -W -f='${Status}' iridium-extractor 2>/dev/null | grep -c "ok 
   mkdir build
   cd build
   cmake ..
-  make
+  make -Wno-dev
   sudo make install
   sudo ldconfig
 fi
@@ -22,7 +22,7 @@ fi
 
 # Install the Iridium phone call audio codec
 if [ -d $HOME/sdr/iridium/osmo-ir77 ]; then
-  cd $HOME/sdr/iridium/osmo-ir77
+  cd $HOME/sdr/iridium/osmo-ir77/codec
   make
 fi
 
