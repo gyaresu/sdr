@@ -6,6 +6,9 @@
 # Install the GNURadio Iridium Decoder
 if [ $(dpkg-query -W -f='${Status}' iridium-extractor 2>/dev/null | grep -c "ok installed") -eq 0 ]; then
   cd $HOME/sdr/iridium/gr-iridium 
+  if [ -d build]; then
+    rm -rf build
+  fi
   mkdir build
   cd build
   cmake ..
